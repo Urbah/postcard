@@ -1,2 +1,1 @@
-# postcard2
-Segundo intento
+# postcard excercise
