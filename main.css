@@ -1,45 +1,66 @@
 body{
-    margin:0px;
-    background-color: rgba(214, 214, 214, 0.74);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lemonada', cursive;
+    padding: 10px;
+    
 }
-.header{
+#bigOne{
+    width: 40%;
+    border:1px solid black;
+    padding: 10px;
+}
+#headerPostcard{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 55px;
-    background-color: white;
+}
+#titlePostcard{
+    width: 74%;
+    float: left;
 }
 h1{
-    margin: 0px;
+ margin: auto;
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.element{
-    margin-top: 60px;
-    width: 50%;
-    background-color: white;
-    border-radius: 5px;
-}
-.elementHead{
-display: flex;
-justify-content: space-between;
-padding:10px 20px;
-}
-h2{
-    margin: 0px;
-    font-size: 20px;
-}
-h2+p{
-    margin: 0px;
-    color: #b5b5b5;
-}
-.elementBody{
-    padding: 10px 20px;
+#imgPostcard{
+    float: right;
+    width: 25%;
 }
 img{
-    width: 100%;
+    width: 4em;
+}
+#bodyPostcard{
+    display: flex;
+    align-items: center;
+  
+}
+p{
+    font-size: 15px;
+    line-height: 22px;
+}
+#infoPostcard{
+    float: left;
+    width: 50%;
+}
+#formPostcard{
+    float: right;;
+    width: 50%;
+}
+input{
+    width:90%;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 14px;
+    font-family: 'Lemonada', cursive;
+}
+#btnPostcard{
+    text-align: center;
+}
+button{
+    font-family: 'Lemonada', cursive;
+    border: none;
+    background: #148fcb;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    border-radius: 2px;
 }
