@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    background-color: rgba(214, 214, 214, 0.74);
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+}
+h1{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element{
+    margin-top: 60px;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+.elementHead{
+display: flex;
+justify-content: space-between;
+padding:10px 20px;
+}
+h2{
+    margin: 0px;
+    font-size: 20px;
+}
+h2+p{
+    margin: 0px;
+    color: #b5b5b5;
+}
+.elementBody{
+    padding: 10px 20px;
+}
+img{
+    width: 100%;
+}
