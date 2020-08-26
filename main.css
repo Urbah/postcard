@@ -1,10 +1,9 @@
 body{
     font-family: 'Lemonada', cursive;
     padding: 10px;
-    
 }
 #bigOne{
-    width: 40%;
+    width: 600px;
     border:1px solid black;
     padding: 10px;
 }
